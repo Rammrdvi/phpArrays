@@ -4,7 +4,7 @@ $array = [1, 2, 3, 4, 5, 6, 7];
 $chunks = array_chunk($array, 3);
 print_r($chunks);
 
-echo "<br>================";
+echo "<br>================<br>"; // br tag is for break the line
 function chunkArray($array, $chunkSize) {
     $chunks = []; // Initialize an empty array to store the chunks
     $chunk = []; // Temporary array to store individual chunks
